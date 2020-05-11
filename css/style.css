@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 420px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    max-width: 420px;
+}
