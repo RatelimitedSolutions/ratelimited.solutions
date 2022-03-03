@@ -10,7 +10,8 @@ a {
 
 body {
     margin: auto;
-    width: 50%;
+    width: 100%;
+    max-width: 540px;
     padding: 10px;
     text-align: center;
 }
@@ -29,4 +30,16 @@ img {
     float: left;
     width: 50%;
     max-width: 420px;
+}
+
+@media (min-width: 992px) {
+  .body {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body {
+    max-width: 960px;
+  }
 }
